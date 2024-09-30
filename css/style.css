@@ -1400,7 +1400,7 @@ html {
 }
 
 body {
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Arimo", "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857;
   color: #333333;
@@ -1884,7 +1884,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: "Roboto", Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: "Arimo", "Roboto", Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 code {
@@ -6545,7 +6545,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Arimo", "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6667,7 +6667,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Titillium Web", "Fjalla One","Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -7333,7 +7333,7 @@ button.close {
 *
 * ======================================================= */
 body {
-  font-family: "Roboto", "Open Sans", Arial, sans-serif;
+  font-family: "Arimo", "Roboto", "Open Sans", Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
@@ -7361,12 +7361,18 @@ p {
   margin-bottom: 1.5em;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2 {
   color: #000;
-  font-family: "Oswald", "Montserrat", arial, sans-serif;
+  font-family: "Fjalla One", "Titillium Web", "Montserrat", arial, sans-serif;
   font-weight: 700;
 }
 
+h3, h4, h5, h6 {
+  color: #000;
+  font-family: "Titillium Web", "Fjalla One", "Montserrat", arial, sans-serif;
+  font-weight: 700;
+}
+    
 ::-webkit-selection {
   color: #818892;
   background: #f9f6f0;
@@ -7516,7 +7522,7 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   font-size: 15px;
   letter-spacing: 2px;
-  font-family: "Oswald", "Montserrat", arial, sans-serif;
+  font-family: "Titillium Web", "Oswald", "Montserrat", arial, sans-serif;
   z-index: 99;
   float: left;
   color: #444;
@@ -7557,7 +7563,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 16px;
   position: relative;
   z-index: 10;
-  font-family: "Oswald", "Montserrat", arial, sans-serif;
+  font-family: "Titillium Web", "Fjalla One", "Montserrat", arial, sans-serif;
   color: #E2E2E2;
 }
 .fh5co-menu-btn i {
@@ -7616,6 +7622,8 @@ h1, h2, h3, h4, h5, h6 {
   }
   #fh5co-hero .fh5co-intro .fh5co-intro-img img {
     max-width: 100%;
+    padding: 15px;
+    margin-bottom: 115px;
   }
 }
 #fh5co-hero .fh5co-intro .fh5co-text {
@@ -7635,8 +7643,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-hero .fh5co-intro h2 {
   color: #E2E2E2;
-  font-size: 50px;
-  line-height: 50px;
+  font-size: 75px;
+  line-height: normal;
   font-weight: 700;
 }
 @media screen and (max-width: 768px) {
@@ -7674,7 +7682,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 2px;
   font-size: 20px;
   float: left !important;
-  font-family: "Oswald", "Montserrat", arial, sans-serif;
+  font-family: "Titillium Web", "Fjalla One", "Montserrat", arial, sans-serif;
   color: #E2E2E2;
   z-index: 10;
   position: relative;
@@ -7745,13 +7753,13 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   font-size: 50px;
   line-height: 50px;
-  font-family: "Oswald", arial, sans-serif;
+  font-family: "Titillium Web", "Fjalla One", arial, sans-serif;
   color: #9F1012;
 }
 #fh5co-pricing .fh5co-price > span {
   font-size: 16px;
   line-height: 16px;
-  font-family: "Roboto", "Open Sans", Arial, sans-serif;
+  font-family: "Arimo", "Roboto", "Open Sans", Arial, sans-serif;
   font-weight: 400;
   color: #ccc;
 }
@@ -7908,6 +7916,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-features-2 .fh5co-image img {
   max-width: 100%;
+    margin-top: 50px;
 }
 @media screen and (max-width: 480px) {
   #fh5co-features-2 .fh5co-image img {
@@ -8042,11 +8051,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #9f1012;
 }
 .fh5co-feature .fh5co-feature-lead, .fh5co-feature .fh5co-figure-lead, .fh5co-figure .fh5co-feature-lead, .fh5co-figure .fh5co-figure-lead {
-  font-size: 14px;
-  letter-spacing: 2px;
-  font-family: "Oswald", "Montserrat", arial, sans-serif;
+  font-size: 18px;
+  font-family: "Titillium Web", "Fjalla One", "Montserrat", arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 600;
 }
 .fh5co-feature .fh5co-feature-text, .fh5co-feature .fh5co-figure-text, .fh5co-figure .fh5co-feature-text, .fh5co-figure .fh5co-figure-text {
   color: #919191;
@@ -8105,11 +8113,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fh5co-uppercase-sm {
-  font-size: 14px;
-  letter-spacing: 2px;
-  font-family: "Oswald", "Montserrat", arial, sans-serif;
+  font-size: 18px;
+  font-family: "Titillium Web", "Fjalla One", "Montserrat", arial, sans-serif;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .fh5co-section-heading {
@@ -8189,7 +8196,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 #fh5co-testimony .fh5co-author {
-  font-family: "Oswald", "Montserrat", arial, sans-serif;
+  font-family: "Titillium Web", "Fjalla One", "Montserrat", arial, sans-serif;
   color: #E2E2E2;
 }
 @media screen and (max-width: 480px) {
@@ -8258,7 +8265,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .fh5co-bg-section .fh5co-overlay {
   background: #3b3d40;
-  opacity: .5;
+  opacity: .75;
 }
 .fh5co-bg-section .author {
   font-size: 20px;
@@ -8282,7 +8289,7 @@ pre {
 
 /* Buttons */
 .btn {
-  font-family: "Oswald", "Montserrat", arial, sans-serif;
+  font-family: "Titillium Web", "Fjalla One", "Montserrat", arial, sans-serif;
   text-transform: uppercase;
   letter-spacing: 4px;
   margin-bottom: 20px;
@@ -8364,7 +8371,7 @@ pre {
   box-shadow: none !important;
   border: 2px solid #444;
   background: transparent;
-  font-family: "Oswald", "Montserrat", arial, sans-serif;
+  font-family: "Titillium Web", "Montserrat", arial, sans-serif;
 }
 .form-control:hover, .form-control:focus, .form-control:active {
   outline: none;
@@ -8416,7 +8423,7 @@ pre {
   color: #F0EEEE;
   position: fixed;
   bottom: 0;
-  font-family: "Roboto" 'Open Sans', Arial, sans-serif;
+  font-family: "Arimo", "Roboto" 'Open Sans', Arial, sans-serif;
   font-weight: 300;
 }
 #fh5co-footer .fh5co-overlay {
@@ -8455,14 +8462,13 @@ pre {
 }
 #fh5co-footer .fh5co-lead {
   font-size: 13px;
-  font-family: "Oswald", "Montserrat", arial, sans-serif;
+  font-family: "Titillium Web", "Fjalla One", "Montserrat", arial, sans-serif;
   text-transform: uppercase;
-  letter-spacing: 4px;
-  color: #E2E2E2;
+  color: #F0EEEE;
   margin-bottom: 20px;
 }
 #fh5co-footer a {
-  color: #9a9fa5;
+  color: #E2E2E2;
 }
 #fh5co-footer a:hover, #fh5co-footer a:active, #fh5co-footer a:focus {
   color: #9f1012;
@@ -8474,9 +8480,8 @@ pre {
   margin-bottom: 10px;
 }
 #fh5co-footer .fh5co-footer-logo a {
-  font-family: "Oswald", "Montserrat", arial, sans-serif;
+  font-family: "Titillium Web","Fjalla One", "Montserrat", arial, sans-serif;
   font-size: 20px;
-  letter-spacing: 2px;
   color: #ccc;
   border: 2px solid #9a9fa5;
   float: left;
@@ -8739,7 +8744,7 @@ pre {
   margin-top: 12px;
   color: #E2E2E2;
   margin-left: -70px;
-  font-family: "Oswald", "Montserrat", arial, sans-serif;
+  font-family: "Titillium Web", "Fjalla One", "Montserrat", arial, sans-serif;
   letter-spacing: 2px;
   font-size: 15px;
   text-transform: uppercase;
@@ -8860,19 +8865,20 @@ pre {
 
 .fh5co-counter {
   font-size: 50px;
+    font-weight: 700;
   display: block;
   color: #E2E2E2;
   width: 100%;
-  font-family: "Oswald", "Montserrat", arial, sans-serif;
+  font-family: "Fjalla One", "Titillium Web", "Montserrat", arial, sans-serif;
   margin-bottom: .5em;
 }
 
 .fh5co-counter-label {
   color: #E2E2E2;
   text-transform: uppercase;
-  font-size: 13px;
-  font-family: "Oswald", "Montserrat", arial, sans-serif;
-  letter-spacing: 5px;
+  font-size: 16px;
+    font-weight: 600;
+  font-family: "Titillium Web", "Fjalla One", "Montserrat", arial, sans-serif;
   margin-bottom: 2em;
   display: block;
 }
